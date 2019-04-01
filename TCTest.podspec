@@ -101,7 +101,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.0"
   spec.ios.framework  = 'Foundation'
-  spec.ios.deployment_target = "8.0"
+  spec.ios.deployment_target = "9.0"
   # spec.public_header_files = "Classes/**/*.h"
 
 
