@@ -12,6 +12,8 @@
 		1E3758F1224B24F60079C4F9 /* QuickSortExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */; };
 		1E3758F9224B59D20079C4F9 /* semaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */; };
 		1E3758FA224B59D20079C4F9 /* semaphoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3758F8224B59D20079C4F9 /* semaphoreViewController.xib */; };
+		1E9F4C2E2251D86F00C9C7FB /* aaaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F4C2C2251D86F00C9C7FB /* aaaaViewController.swift */; };
+		1E9F4C2F2251D86F00C9C7FB /* aaaaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F4C2D2251D86F00C9C7FB /* aaaaViewController.xib */; };
 		1EFCA3AC224A1DBC00945016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCA3AB224A1DBC00945016 /* AppDelegate.swift */; };
 		1EFCA3AE224A1DBC00945016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCA3AD224A1DBC00945016 /* ViewController.swift */; };
 		1EFCA3B1224A1DBC00945016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCA3AF224A1DBC00945016 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortExplainViewController.swift; sourceTree = "<group>"; };
 		1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semaphoreViewController.swift; sourceTree = "<group>"; };
 		1E3758F8224B59D20079C4F9 /* semaphoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = semaphoreViewController.xib; sourceTree = "<group>"; };
+		1E9F4C2C2251D86F00C9C7FB /* aaaaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaaViewController.swift; sourceTree = "<group>"; };
+		1E9F4C2D2251D86F00C9C7FB /* aaaaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = aaaaViewController.xib; sourceTree = "<group>"; };
 		1EFCA3A8224A1DBC00945016 /* LearnEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFCA3AB224A1DBC00945016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EFCA3AD224A1DBC00945016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				1E3207FC2251B9D800CE8EB9 /* File.swift */,
+				1E9F4C2C2251D86F00C9C7FB /* aaaaViewController.swift */,
+				1E9F4C2D2251D86F00C9C7FB /* aaaaViewController.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -171,6 +177,7 @@
 				1EFCA3B3224A1DCA00945016 /* Assets.xcassets in Resources */,
 				1EFCA3B1224A1DBC00945016 /* Main.storyboard in Resources */,
 				1EFCA3C8224A274B00945016 /* BubblingViewController.xib in Resources */,
+				1E9F4C2F2251D86F00C9C7FB /* aaaaViewController.xib in Resources */,
 				1E3758FA224B59D20079C4F9 /* semaphoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +195,7 @@
 				1E3758ED224B0B4B0079C4F9 /* QuickSort.swift in Sources */,
 				1E3758F9224B59D20079C4F9 /* semaphoreViewController.swift in Sources */,
 				1EFCA3AE224A1DBC00945016 /* ViewController.swift in Sources */,
+				1E9F4C2E2251D86F00C9C7FB /* aaaaViewController.swift in Sources */,
 				1EFCA3AC224A1DBC00945016 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
