@@ -93,9 +93,9 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "LearnEnglish/LearnEnglish/test/*.{swift}"
 
-  spec.resource_bundles = {
-    'MyFramework' => ['LearnEnglish/LearnEnglish/test/*.{storyboard,xib}']
-  }
+  # spec.resource_bundles = {
+  #   'MyFramework' => ['LearnEnglish/LearnEnglish/test/*.{storyboard,xib}']
+  # }
 
 
   spec.exclude_files = "Classes/Exclude"
@@ -114,7 +114,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "LearnEnglish/LearnEnglish/test/*.{xib}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
