@@ -21,6 +21,7 @@
 		1EFCA3B6224A1DCA00945016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCA3B4224A1DCA00945016 /* LaunchScreen.storyboard */; };
 		1EFCA3C7224A274B00945016 /* BubblingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCA3C5224A274B00945016 /* BubblingViewController.swift */; };
 		1EFCA3C8224A274B00945016 /* BubblingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCA3C6224A274B00945016 /* BubblingViewController.xib */; };
+		1EFD72FC2251E01B001E35A6 /* sssss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD72FB2251E01B001E35A6 /* sssss.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1EFCA3B7224A1DCA00945016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EFCA3C5224A274B00945016 /* BubblingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblingViewController.swift; sourceTree = "<group>"; };
 		1EFCA3C6224A274B00945016 /* BubblingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BubblingViewController.xib; sourceTree = "<group>"; };
+		1EFD72FB2251E01B001E35A6 /* sssss.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sssss.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1E3207FC2251B9D800CE8EB9 /* File.swift */,
 				1E9F4C2C2251D86F00C9C7FB /* aaaaViewController.swift */,
 				1E9F4C2D2251D86F00C9C7FB /* aaaaViewController.xib */,
+				1EFD72FB2251E01B001E35A6 /* sssss.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				1EFCA3B6224A1DCA00945016 /* LaunchScreen.storyboard in Resources */,
 				1EFCA3B3224A1DCA00945016 /* Assets.xcassets in Resources */,
+				1EFD72FC2251E01B001E35A6 /* sssss.xib in Resources */,
 				1EFCA3B1224A1DBC00945016 /* Main.storyboard in Resources */,
 				1EFCA3C8224A274B00945016 /* BubblingViewController.xib in Resources */,
 				1E9F4C2F2251D86F00C9C7FB /* aaaaViewController.xib in Resources */,
