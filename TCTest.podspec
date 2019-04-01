@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "LearnEnglish/LearnEnglish/test/*.{swift}"
 
-  s.resource_bundles = {
+  spec.resource_bundles = {
     'MyFramework' => ['LearnEnglish/LearnEnglish/test/*.{storyboard,xib}']
   }
 
