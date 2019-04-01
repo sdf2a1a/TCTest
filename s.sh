@@ -1,5 +1,5 @@
 git add *
-git commit -am "commit"
+git commit -am "commita"
 git push
 
 
