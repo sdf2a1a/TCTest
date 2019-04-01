@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1E3758ED224B0B4B0079C4F9 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758EC224B0B4B0079C4F9 /* QuickSort.swift */; };
 		1E3758F1224B24F60079C4F9 /* QuickSortExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */; };
-		1E3758F2224B24F60079C4F9 /* QuickSortExplainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3758F0224B24F60079C4F9 /* QuickSortExplainViewController.xib */; };
 		1E3758F9224B59D20079C4F9 /* semaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */; };
 		1E3758FA224B59D20079C4F9 /* semaphoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3758F8224B59D20079C4F9 /* semaphoreViewController.xib */; };
 		1EFCA3AC224A1DBC00945016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCA3AB224A1DBC00945016 /* AppDelegate.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		1E3758EC224B0B4B0079C4F9 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortExplainViewController.swift; sourceTree = "<group>"; };
-		1E3758F0224B24F60079C4F9 /* QuickSortExplainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickSortExplainViewController.xib; sourceTree = "<group>"; };
 		1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semaphoreViewController.swift; sourceTree = "<group>"; };
 		1E3758F8224B59D20079C4F9 /* semaphoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = semaphoreViewController.xib; sourceTree = "<group>"; };
 		1EFCA3A8224A1DBC00945016 /* LearnEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */,
-				1E3758F0224B24F60079C4F9 /* QuickSortExplainViewController.xib */,
 			);
 			path = explain;
 			sourceTree = "<group>";
@@ -159,7 +156,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3758F2224B24F60079C4F9 /* QuickSortExplainViewController.xib in Resources */,
 				1EFCA3B6224A1DCA00945016 /* LaunchScreen.storyboard in Resources */,
 				1EFCA3B3224A1DCA00945016 /* Assets.xcassets in Resources */,
 				1EFCA3B1224A1DBC00945016 /* Main.storyboard in Resources */,
