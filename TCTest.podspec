@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A short description of TCTest.A short description of TCTest.A short description of TCTest.A short description of TCTest.A short description of TCTest.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TCTest"
+  spec.homepage     = "https://github.com/sdf2a1a/TCTest.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
