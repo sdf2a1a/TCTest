@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,45 +23,45 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="随机输入几个数，以空格分隔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icd-uM-0iC">
-                    <rect key="frame" x="0.0" y="54" width="414" height="21"/>
+                    <rect key="frame" x="0.0" y="10" width="414" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已选择" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTj-lN-dcP">
-                    <rect key="frame" x="0.0" y="105" width="52" height="21"/>
+                    <rect key="frame" x="0.0" y="61" width="52" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nA7-EW-zJ7">
-                    <rect key="frame" x="0.0" y="75" width="414" height="30"/>
+                    <rect key="frame" x="0.0" y="31" width="414" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Muu-gs-i8h">
-                    <rect key="frame" x="52" y="105" width="31" height="30"/>
+                    <rect key="frame" x="52" y="61" width="31" height="30"/>
                     <state key="normal" title="随机"/>
                     <connections>
                         <action selector="click:" destination="-1" eventType="touchUpInside" id="FqF-q5-6Aa"/>
                     </connections>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0SE-eC-Fvx">
-                    <rect key="frame" x="0.0" y="146" width="414" height="716"/>
+                    <rect key="frame" x="0.0" y="102" width="414" height="794"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-UT-7n2">
-                    <rect key="frame" x="97" y="105" width="62" height="30"/>
+                    <rect key="frame" x="97" y="61" width="62" height="30"/>
                     <state key="normal" title="开始排序"/>
                     <connections>
                         <action selector="paixu:" destination="-1" eventType="touchUpInside" id="jY6-Zy-Z7T"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th0-FI-K6B">
-                    <rect key="frame" x="175" y="105" width="31" height="30"/>
+                    <rect key="frame" x="175" y="61" width="31" height="30"/>
                     <state key="normal" title="说明"/>
                     <connections>
                         <action selector="shuoming:" destination="-1" eventType="touchUpInside" id="3GJ-WH-JPi"/>
@@ -71,26 +70,25 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="nA7-EW-zJ7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3PS-DM-lrw"/>
+                <constraint firstItem="nA7-EW-zJ7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3PS-DM-lrw"/>
                 <constraint firstItem="0SE-eC-Fvx" firstAttribute="top" secondItem="GTj-lN-dcP" secondAttribute="bottom" constant="20" id="6iU-Jz-y2s"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0SE-eC-Fvx" secondAttribute="trailing" id="9vD-3T-WcQ"/>
-                <constraint firstItem="0SE-eC-Fvx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="B43-rO-BR0"/>
+                <constraint firstAttribute="trailing" secondItem="0SE-eC-Fvx" secondAttribute="trailing" id="9vD-3T-WcQ"/>
+                <constraint firstItem="0SE-eC-Fvx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B43-rO-BR0"/>
                 <constraint firstItem="GTj-lN-dcP" firstAttribute="top" secondItem="nA7-EW-zJ7" secondAttribute="bottom" id="Hnk-vM-Kq7"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="0SE-eC-Fvx" secondAttribute="bottom" id="MAQ-SK-XzS"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nA7-EW-zJ7" secondAttribute="trailing" id="Nrp-D4-Jv9"/>
-                <constraint firstItem="GTj-lN-dcP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="P7d-W9-tW6"/>
-                <constraint firstItem="icd-uM-0iC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="PDf-XI-UHB"/>
+                <constraint firstAttribute="bottom" secondItem="0SE-eC-Fvx" secondAttribute="bottom" id="MAQ-SK-XzS"/>
+                <constraint firstAttribute="trailing" secondItem="nA7-EW-zJ7" secondAttribute="trailing" id="Nrp-D4-Jv9"/>
+                <constraint firstItem="GTj-lN-dcP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="P7d-W9-tW6"/>
+                <constraint firstItem="icd-uM-0iC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="PDf-XI-UHB"/>
                 <constraint firstItem="th0-FI-K6B" firstAttribute="top" secondItem="nA7-EW-zJ7" secondAttribute="bottom" id="Qmu-OX-onx"/>
                 <constraint firstItem="nA7-EW-zJ7" firstAttribute="top" secondItem="icd-uM-0iC" secondAttribute="bottom" id="V3y-Qe-DxR"/>
                 <constraint firstItem="Muu-gs-i8h" firstAttribute="top" secondItem="nA7-EW-zJ7" secondAttribute="bottom" id="bte-j2-Euu"/>
-                <constraint firstItem="icd-uM-0iC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="h1c-Wv-UKl"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="icd-uM-0iC" secondAttribute="trailing" id="ulc-jd-LW3"/>
+                <constraint firstItem="icd-uM-0iC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h1c-Wv-UKl"/>
+                <constraint firstAttribute="trailing" secondItem="icd-uM-0iC" secondAttribute="trailing" id="ulc-jd-LW3"/>
                 <constraint firstItem="th0-FI-K6B" firstAttribute="leading" secondItem="JsS-UT-7n2" secondAttribute="trailing" constant="16" id="vYO-VH-955"/>
                 <constraint firstItem="Muu-gs-i8h" firstAttribute="leading" secondItem="GTj-lN-dcP" secondAttribute="trailing" id="y2Y-gd-lta"/>
                 <constraint firstItem="JsS-UT-7n2" firstAttribute="top" secondItem="nA7-EW-zJ7" secondAttribute="bottom" id="yGn-NI-ZOf"/>
                 <constraint firstItem="JsS-UT-7n2" firstAttribute="leading" secondItem="Muu-gs-i8h" secondAttribute="trailing" constant="14" id="ybM-HZ-Nir"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="50.724637681159422" y="35.491071428571423"/>
         </view>
     </objects>
