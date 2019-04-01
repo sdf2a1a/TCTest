@@ -16,6 +16,7 @@ do
    # echo $var
 
 if [[ $var = "podspec" ]]; then
+	echo ${array[0]}.podspec
 	pod repo push ${array[0]} ${array[0]}.podspec
 fi
 
