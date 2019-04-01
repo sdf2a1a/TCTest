@@ -94,6 +94,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "LearnEnglish/LearnEnglish/explain/*.{swift,xib}"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.0"
+  spec.ios.framework  = 'UIKit'
+  spec.ios.deployment_target = "8.0"
   # spec.public_header_files = "Classes/**/*.h"
 
 
