@@ -22,6 +22,7 @@
 		1EFCA3C7224A274B00945016 /* BubblingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCA3C5224A274B00945016 /* BubblingViewController.swift */; };
 		1EFCA3C8224A274B00945016 /* BubblingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCA3C6224A274B00945016 /* BubblingViewController.xib */; };
 		1EFD72FC2251E01B001E35A6 /* sssss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD72FB2251E01B001E35A6 /* sssss.xib */; };
+		1EFD72FE2251E8C8001E35A6 /* 1big_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD72FD2251E8C7001E35A6 /* 1big_s@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1EFCA3C5224A274B00945016 /* BubblingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblingViewController.swift; sourceTree = "<group>"; };
 		1EFCA3C6224A274B00945016 /* BubblingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BubblingViewController.xib; sourceTree = "<group>"; };
 		1EFD72FB2251E01B001E35A6 /* sssss.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sssss.xib; sourceTree = "<group>"; };
+		1EFD72FD2251E8C7001E35A6 /* 1big_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1big_s@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1E3207FB2251B9C100CE8EB9 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				1EFD72FD2251E8C7001E35A6 /* 1big_s@3x.png */,
 				1E3207FC2251B9D800CE8EB9 /* File.swift */,
 				1E9F4C2C2251D86F00C9C7FB /* aaaaViewController.swift */,
 				1E9F4C2D2251D86F00C9C7FB /* aaaaViewController.xib */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFD72FE2251E8C8001E35A6 /* 1big_s@3x.png in Resources */,
 				1EFCA3B6224A1DCA00945016 /* LaunchScreen.storyboard in Resources */,
 				1EFCA3B3224A1DCA00945016 /* Assets.xcassets in Resources */,
 				1EFD72FC2251E01B001E35A6 /* sssss.xib in Resources */,
