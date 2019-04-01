@@ -91,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LearnEnglish/LearnEnglish/explain/*.{swift,xib}"
+  spec.source_files  = "LearnEnglish/LearnEnglish/test/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.0"
-  spec.ios.framework  = 'UIKit'
+  spec.ios.framework  = 'Foundation'
   spec.ios.deployment_target = "8.0"
   # spec.public_header_files = "Classes/**/*.h"
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3207FD2251B9D800CE8EB9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3207FC2251B9D800CE8EB9 /* File.swift */; };
 		1E3758ED224B0B4B0079C4F9 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758EC224B0B4B0079C4F9 /* QuickSort.swift */; };
 		1E3758F1224B24F60079C4F9 /* QuickSortExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */; };
 		1E3758F9224B59D20079C4F9 /* semaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3207FC2251B9D800CE8EB9 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		1E3758EC224B0B4B0079C4F9 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		1E3758EF224B24F60079C4F9 /* QuickSortExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortExplainViewController.swift; sourceTree = "<group>"; };
 		1E3758F7224B59D20079C4F9 /* semaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semaphoreViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3207FB2251B9C100CE8EB9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				1E3207FC2251B9D800CE8EB9 /* File.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		1E3758EE224B24AC0079C4F9 /* explain */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		1EFCA3AA224A1DBC00945016 /* LearnEnglish */ = {
 			isa = PBXGroup;
 			children = (
+				1E3207FB2251B9C100CE8EB9 /* test */,
 				1E3758F6224B59920079C4F9 /* semaphore */,
 				1E3758EE224B24AC0079C4F9 /* explain */,
 				1EFCA3AB224A1DBC00945016 /* AppDelegate.swift */,
@@ -173,6 +184,7 @@
 			files = (
 				1E3758F1224B24F60079C4F9 /* QuickSortExplainViewController.swift in Sources */,
 				1EFCA3C7224A274B00945016 /* BubblingViewController.swift in Sources */,
+				1E3207FD2251B9D800CE8EB9 /* File.swift in Sources */,
 				1E3758ED224B0B4B0079C4F9 /* QuickSort.swift in Sources */,
 				1E3758F9224B59D20079C4F9 /* semaphoreViewController.swift in Sources */,
 				1EFCA3AE224A1DBC00945016 /* ViewController.swift in Sources */,
