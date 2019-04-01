@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "LearnEnglish/LearnEnglish/explain/*.{swift,xib}"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.swift_version = 4.2
   # spec.public_header_files = "Classes/**/*.h"
 
 
