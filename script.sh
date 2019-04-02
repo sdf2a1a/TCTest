@@ -1,6 +1,14 @@
 git add *
-git commit -am "0.0.1"
+
+vers=$(grep "spec.version      =" TCTest.podspec)
+versarr=(${vers//=/ })  
+
+git commit -am ${versarr[1]}
 git push
+
+git tag ${versarr[1]}
+git push origin ${versarr[1]}
+
 
 a=`ls`
 
@@ -27,5 +35,4 @@ fi
 
 
 done
-
 
